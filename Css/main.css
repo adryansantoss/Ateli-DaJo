@@ -46,7 +46,7 @@
         list-style: none;
         display: flex;
         justify-content: flex-end;
-        margin-top: -20px;
+        margin-top: -30px;
     }
     
     .Button {
@@ -56,7 +56,7 @@
         border-bottom: 2px solid black;
         margin-left: 10px;
         margin-right: 10px;
-        padding: 10px;
+        padding: 15px;
         font-size: 18px;
         cursor: pointer;
         transition: 1s;
@@ -64,7 +64,7 @@
     }
     
     .Button:hover {
-        transform: scale(1.05, 1.05);
+        transform: scale(1.07, 1.07);
     }
     
     .body {
@@ -132,6 +132,11 @@
         height: 325px;
         border: 3px solid black;
         border-radius: 180px;
+        transition: 1s;
+    }
+    
+    .Foto:hover {
+        transform: scale(1.07, 1.07);
     }
     
     .texto {
